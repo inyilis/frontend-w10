@@ -65,7 +65,7 @@
                           <div class="row pt-3">
                             <label for="pwsd" class="col-3 form-label pt-1">Password</label>
                             <div class="col-9">
-                              <input type="text" v-model="formRegister.pswd" class="form-control" name="pwsd" value="" required>
+                              <input type="password" v-model="formRegister.pswd" class="form-control" name="pwsd" value="" required>
                             </div>
                           </div>
                         </div>
